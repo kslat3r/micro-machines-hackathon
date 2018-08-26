@@ -1,5 +1,4 @@
 theme : moon
-theme-override : /assets/css/PITCHME.css
 highlight : ir-black
 background-opacity : 15
 transition : none
