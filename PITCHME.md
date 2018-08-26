@@ -71,9 +71,9 @@
 
 ---
 
-### Introduction to the code
+### Introduction to the codebase
 
-___
+---
 
 ## Adding our first class - Track
 
