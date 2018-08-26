@@ -1,16 +1,14 @@
-## Mocha/Chai/Supertest workshop
+## Building Micro Machines (racing game) using object-oriented JavaScript
 
-### June 22nd 2018
+### August 30th 2018
 
 ---
 
 ### What we will cover
 
-* Mocha test runner and reporting
-* NYC test code coverage tool
-* Creating good assertions with Chai
-* Mocking functions using Sinon
-* Component testing your application using Supertest
+* How to model our game using objects
+* How to get our racing game working and playable
+* If we have time, adding a functional AI opponent
 
 *Bear in mind that this is a code-along!*
 
@@ -18,8 +16,8 @@
 
 ### What this is not
 
-* A best practices class on TDD
-* Ideally, tests should be written **before** functionality
+* A boring theoretical introduction to OOP
+* Some OOP knowledge is required!
 
 ---
 
@@ -43,39 +41,33 @@
 
 ### Please clone the following repository from Github
 
-#### https://github.com/kslat3r/mocha-chai-supertest-hackathon
+#### https://github.com/kslat3r/micro-machines
 
 * Checkout the branch `step-one`
-* Make sure you have a `src/` directory and navigate to it
 
 ---
 
-## Starting the microservice
+## Building the game
 
 ---
 
 ### Steps to complete:
 
 * `npm install`
-* `npm start`
-* `http://localhost:3000/explorer`
+* `npm run watch` (this will run watch and build on any file changes)
+* Open `dist/index.html` in your browser
 
 ---
 
-## Walkthrough of functionality
+## Introduction to the game
 
 ---
 
-## Introducing our test runner
+## Introducing our first class
 
 ---
 
 ### Steps to complete:
-
-* Install `mocha` test runner
-* Install `nyc` code coverage tool
-* Add `nyc` configuration in `package.json`
-* Reconfigure the `npm test` command to execute the empty spec files with `nyc` and `mocha`
 
 ---
 
@@ -85,9 +77,6 @@
 
 ### Steps to complete:
 
-* Install `sinon`, a mocking library
-* Install `chai`, an assertion library
-
 ---
 
 ## Adding some specs!
@@ -96,19 +85,6 @@
 
 ### Specs to complete:
 
-* filters/todo.spec.js
-* mappers/todo.spec.js
-* models/user.spec.js
-* services/todo.spec.js
-* services/user.spec.js
-
----
-
-## Things to think about
-
-* Use `sinon` where appropriate to mock application dependencies outside of the units
-* Use `chai` where appropriate to create assertions against results
-
 ---
 
 ## Writing some component tests
@@ -116,13 +92,6 @@
 ---
 
 ### Steps to complete:
-
-* Install `supertest` HTTP assertion library
-* Configure `package.json` with a new NPM script to execute our component tests
-* In the directory `src/test/`, write component tests for:
-  * `GET /api/users`
-  * `GET /api/users/1`
-* **BONUS** add the `mochawesome` reporting tool
 
 ---
 
