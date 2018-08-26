@@ -56,10 +56,15 @@
 * `npm install`
 * `npm run watch` (this will run watch and build on any file changes)
 * Open `dist/index.html` in your browser
+* You will need to refresh your browser after file changes
 
 ---
 
 ## Introduction to the game
+
+---
+
+![Gravity][https://youtu.be/XDc0OjQZVNc?t=36]
 
 ---
 
