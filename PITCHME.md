@@ -2,6 +2,8 @@
 
 ### August 30th 2018
 
+![Demo](assets/image/screenshot.png)
+
 ---
 
 ### What we will cover
