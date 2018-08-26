@@ -77,16 +77,18 @@
 
 ## Adding our first class - Track
 
+### Please checkout branch `step-one`
+
 ---
 
 ### Steps to complete:
 
 * Create a file called `game/track.js`
-* Add a class called `Track`
-* Add a constructor
+* Create a class called `Track`
+* Add a constructor method
 * Add a method called `draw`
 * Populate our class functionality
-* Add an instance of this class in `game/index.js`
+* Create an instance of this class in `game/index.js`
 
 ---
 
