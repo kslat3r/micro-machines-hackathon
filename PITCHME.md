@@ -64,7 +64,7 @@
 
 ---
 
-![Gravity][https://youtu.be/XDc0OjQZVNc?t=36]
+![Gravity](https://youtu.be/XDc0OjQZVNc?t=36)
 
 ---
 
