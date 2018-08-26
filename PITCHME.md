@@ -8,7 +8,8 @@
 
 ### What we will cover
 
-* How to model our game using objects
+* How to model our game using JavaScript classes/objects
+* How polymorphism works in JavaScript
 * How to get our racing game working and playable
 * If we have time, adding a functional AI opponent
 
@@ -70,7 +71,28 @@
 
 ---
 
-## Introducing our first class
+### Introduction to the code
+
+___
+
+## Adding our first class - Track
+
+---
+
+### Steps to complete:
+
+* Create a file called `game/track.js`
+* Add a class called `Track`
+* Add a constructor
+* Add a method called `draw`
+* Populate our class functionality
+* Add an instance of this class in `game/index.js`
+
+---
+
+## Adding a parent class - Car
+
+### Please checkout branch `step-two`
 
 ---
 
@@ -78,15 +100,9 @@
 
 ---
 
-## Adding some libraries
+## Adding a child class - PlayerCar
 
----
-
-### Steps to complete:
-
----
-
-## Adding some specs!
+### Please checkout branch `step-three`
 
 ---
 
@@ -94,7 +110,9 @@
 
 ---
 
-## Writing some component tests
+## Adding our AI opponent class - AICar
+
+### Please checkout branch `step-four`
 
 ---
 
