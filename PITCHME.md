@@ -1,4 +1,4 @@
-## Building Micro Machines (racing game) using object-oriented JavaScript
+## Building Micro Machines using object-oriented JavaScript
 
 ### August 30th 2018
 
