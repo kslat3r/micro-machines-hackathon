@@ -21,6 +21,7 @@
 
 * A boring theoretical introduction to OOP
 * Some OOP knowledge is required!
+* Some JavaScript\CommonJS knowledge is required!
 
 ---
 
@@ -100,6 +101,12 @@
 
 ### Steps to complete:
 
+* Create a file called `game/car.js`
+* Create a class called `Car`
+* Add a constructor method
+* Add methods called `respondToEvents`, `calculate` and `draw`
+* Populate our class functionality
+
 ---
 
 ## Adding a child class - PlayerCar
@@ -110,6 +117,12 @@
 
 ### Specs to complete:
 
+* Create a file called `game/player-car.js`
+* Create a class called `PlayerCar` which extends `Car`
+* Override the `draw` method of the parent class
+* Make calls to our parent class method and populate class functionality
+* Create an instance of this class in `game/index.js`
+
 ---
 
 ## Adding our AI opponent class - AICar
@@ -119,6 +132,13 @@
 ---
 
 ### Steps to complete:
+
+* Create a file called `game/ai-car.js`
+* Create a class called `AICar`
+* Add a constructor method and call the parent class constructor
+* Override the `draw` method of the parent class
+* Make calls to our parent class method and populate class functionality
+* Create an instance of this class in `game/index.js`
 
 ---
 
