@@ -30,10 +30,11 @@
 ---
 
 * A terminal
-* A web browser
-* A text editor (Visual Studio Code)
+* Git
 * Node.js v8.9.4
 * NPM v5.6.0
+* A text editor (Visual Studio Code)
+* A web browser
 
 *Please double check you have the correct versions of Node/NPM*
 
@@ -122,6 +123,7 @@
 * Override the `draw` method of the parent class
 * Make calls to our parent class method and populate class functionality
 * Create an instance of this class in `game/index.js`
+* Add PlayerCar logic to the Viewport class
 
 ---
 
